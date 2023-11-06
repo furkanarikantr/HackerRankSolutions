@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "Diago
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompareTheTriplets", "CompareTheTriplets\CompareTheTriplets.csproj", "{787E1192-801E-4058-B20F-93E904E01E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{CA604FBD-7023-4808-A881-5102D5B38651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{CA604FBD-7023-4808-A881-5102D5B38651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini-MaxSum", "Mini-MaxSum\Mini-MaxSum.csproj", "{10B6C1C0-4D99-4F95-9552-BF9239C4C6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini-MaxSum", "Mini-MaxSum\Mini-MaxSum.csproj", "{10B6C1C0-4D99-4F95-9552-BF9239C4C6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaircaseDetail", "StaircaseDetail\StaircaseDetail.csproj", "{B90E676C-BC8A-4CBA-86E5-A90286C961FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{10B6C1C0-4D99-4F95-9552-BF9239C4C6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B6C1C0-4D99-4F95-9552-BF9239C4C6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B6C1C0-4D99-4F95-9552-BF9239C4C6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90E676C-BC8A-4CBA-86E5-A90286C961FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90E676C-BC8A-4CBA-86E5-A90286C961FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90E676C-BC8A-4CBA-86E5-A90286C961FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90E676C-BC8A-4CBA-86E5-A90286C961FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{787E1192-801E-4058-B20F-93E904E01E34} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 		{CA604FBD-7023-4808-A881-5102D5B38651} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 		{10B6C1C0-4D99-4F95-9552-BF9239C4C6E0} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
+		{B90E676C-BC8A-4CBA-86E5-A90286C961FD} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {534D8646-B531-492C-B123-970B4E6CE38C}

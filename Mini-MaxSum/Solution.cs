@@ -9,9 +9,9 @@
          */
         public static void miniMaxSum(List<int> arr)
         {
-            int temp = 0;
-            int minSum = 0;
-            int maxSum = 0;
+            //int temp = 0;
+            //int minSum = arr[0];
+            //int maxSum = 0;
 
             //for (int i = 0; i < arr.Count(); i++)
             //{
@@ -26,19 +26,31 @@
             //    }
             //}
 
+
+            //for (int i = 1; i < arr.Count(); i++)
+            //{
+            //    maxSum += arr[i];
+            //}
+
+            //for (int i = 0; i < arr.Count() - 1; i++)
+            //{
+            //    minSum += arr[i];
+            //}
+
+            //Console.WriteLine(minSum + " " + maxSum);
+
             arr.Sort((a, b) => a.CompareTo(b));
 
-            for (int i = 1; i < arr.Count(); i++)
+            long totalSum = 0;
+            long maxArr = arr.Max();
+            long minArr = arr.Min();
+
+            for (int i = 0; i < arr.Count(); i++)
             {
-                maxSum += arr[i];
+                totalSum += arr[i];
             }
 
-            for (int i = 0; i < arr.Count() - 1; i++)
-            {
-                minSum += arr[i];
-            }
-
-            Console.WriteLine(minSum + " " + maxSum);
+            Console.WriteLine((totalSum - maxArr) + " " + (totalSum - minArr));
         }
     }
 
