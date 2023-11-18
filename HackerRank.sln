@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeConversion", "TimeConve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradingStudents", "GradingStudents\GradingStudents.csproj", "{A8DE25CD-F923-40D3-BC14-761EE92D45E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleAndOrange", "AppleAndOrange\AppleAndOrange.csproj", "{557AA1CA-88E3-4013-8946-2DC3CDCE29A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleAndOrange", "AppleAndOrange\AppleAndOrange.csproj", "{557AA1CA-88E3-4013-8946-2DC3CDCE29A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{D9DA0DFE-3A01-4238-80D3-460AD28C19BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{557AA1CA-88E3-4013-8946-2DC3CDCE29A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{557AA1CA-88E3-4013-8946-2DC3CDCE29A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{557AA1CA-88E3-4013-8946-2DC3CDCE29A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DA0DFE-3A01-4238-80D3-460AD28C19BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DA0DFE-3A01-4238-80D3-460AD28C19BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DA0DFE-3A01-4238-80D3-460AD28C19BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DA0DFE-3A01-4238-80D3-460AD28C19BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{BC65444D-98FD-427C-90E0-9ED88B3847B7} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 		{A8DE25CD-F923-40D3-BC14-761EE92D45E8} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 		{557AA1CA-88E3-4013-8946-2DC3CDCE29A0} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
+		{D9DA0DFE-3A01-4238-80D3-460AD28C19BF} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {534D8646-B531-492C-B123-970B4E6CE38C}
