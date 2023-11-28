@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleAndOrange", "AppleAndO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{D9DA0DFE-3A01-4238-80D3-460AD28C19BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{8574D379-46BD-4007-AA9F-E5FE1A3FD180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreakingTheRecords", "BreakingTheRecords\BreakingTheRecords.csproj", "{8574D379-46BD-4007-AA9F-E5FE1A3FD180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenTwoSets", "BetweenTwoSets\BetweenTwoSets.csproj", "{97607037-1C12-4AB2-956B-4A1A8A3E9FB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,10 @@ Global
 		{8574D379-46BD-4007-AA9F-E5FE1A3FD180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8574D379-46BD-4007-AA9F-E5FE1A3FD180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8574D379-46BD-4007-AA9F-E5FE1A3FD180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97607037-1C12-4AB2-956B-4A1A8A3E9FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97607037-1C12-4AB2-956B-4A1A8A3E9FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97607037-1C12-4AB2-956B-4A1A8A3E9FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97607037-1C12-4AB2-956B-4A1A8A3E9FB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{557AA1CA-88E3-4013-8946-2DC3CDCE29A0} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 		{D9DA0DFE-3A01-4238-80D3-460AD28C19BF} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 		{8574D379-46BD-4007-AA9F-E5FE1A3FD180} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
+		{97607037-1C12-4AB2-956B-4A1A8A3E9FB9} = {2F2B77D9-903F-4C32-997F-16275FE44D67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {534D8646-B531-492C-B123-970B4E6CE38C}
